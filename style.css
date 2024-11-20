@@ -329,7 +329,7 @@ button a{
     text-decoration: none;
 }
 
-@media (max-width:884px) {
+/* @media (max-width:884px) {
     nav .logo{
         position: absolute;
         top: 16px;
@@ -361,12 +361,8 @@ button a{
         font-size: 1.5rem;
     }
 
-    /* .main-container .image{
-        z-index: -1;
-        width: 50%;
-        height: 60%;
-    } */
-}
+    
+} */
 
 @media (max-width:440px){
     .main-container .image{
