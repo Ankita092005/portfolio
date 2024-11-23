@@ -64,7 +64,7 @@ nav{
 
 .nav-container .links a{
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: rgb(249, 168, 37);
     margin: 0 20px;
     text-decoration: none;
@@ -364,7 +364,7 @@ button a{
     
 } */
 
-@media (max-width:440px){
+/* @media (max-width:440px){
     .main-container .image{
         width: 50%;
         height: 60%;
@@ -378,7 +378,7 @@ button a{
     .main-container button{
         margin-top: 15px;
     }
-}
+} */
 
 .image{
     width: 100%;
