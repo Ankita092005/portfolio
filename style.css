@@ -10,12 +10,13 @@
 html, body {
     overflow: auto; /* Allow scrolling */
     height: auto; /* Ensure content height is not restricted */
+    font-size: 16px;
 }
 
 body {
     background-color: #1b1b2f;
     color: #fff;
-    line-height: 1.6;
+    /* line-height: 1.6; */
     text-align: center;
     width: 100%;
     height: 100vh;
@@ -38,7 +39,7 @@ nav{
 
 .logo{
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -64,7 +65,7 @@ nav{
 
 .nav-container .links a{
     position: relative;
-    font-size: 1.3rem;
+    font-size: 16px;
     color: rgb(249, 168, 37);
     margin: 0 20px;
     text-decoration: none;
@@ -141,11 +142,11 @@ nav{
      */
      margin-top: 20px;
      
-     height: 250px;
-     margin-left: 70%;
+     /* height: 200px; */
+     margin-left: 65%;
      position: absolute;
      z-index: -1;
-     width: 100%;
+     /* width: 100%; */
     
     
      
@@ -156,8 +157,8 @@ nav{
     /* mix-blend-mode: multiply; */
     
     margin-top: 20px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     /* border-radius: 30%; */
     margin-bottom: 5px;
 }
@@ -250,7 +251,7 @@ h1{
 
 }
 .content h1{
-    font-size: clamp(1rem, 1rem + 5vw, 1.8rem);
+    font-size: clamp(1rem, 1rem + 5vw, 1.5rem);
 }
 
 .content h1 span{
@@ -259,7 +260,7 @@ h1{
 }
 
 .content .typewriter{
-    font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
+    font-size: clamp(1rem, 1rem + 5vw, 2rem);
     font-weight: 600;
     margin-top: 10px;
 }
@@ -271,7 +272,7 @@ h1{
 }
 
 .content p{
-    font-size: clamp(0.4rem , 0.2rem + 9vw, 1rem);
+    font-size: clamp(0.3rem , 0.1rem + 7vw, 0.5rem);
     margin: 10px 0;
 }
 
@@ -283,14 +284,14 @@ h1{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: transparent;
     border: 0.2rem solid #f9a825;
     border-radius: 50%;
     color: #f9a825;
-    margin: 5px 15px;
-    font-size: 1.5rem;
+    margin: 0.5px 10px;
+    font-size: 1.2rem;
     /* transition: 0.2s linear; */
 }
 
@@ -302,14 +303,14 @@ h1{
 }
 
 button{
-    width: 13%;
+    width: 12%;
     height: 6vh;
-    margin: 30px;
+    margin: 20px;
     background-color: #f9a825;
     color: white;
     border: none;
     outline: none;
-    font-size: 120%;
+    font-size: 100%;
     font-weight: 700;
     border-radius: 5px;
     /* transition: 0.2s linear; */
@@ -329,7 +330,7 @@ button a{
     text-decoration: none;
 }
 
-/* @media (max-width:884px) {
+@media (max-width:884px) {
     nav .logo{
         position: absolute;
         top: 16px;
@@ -362,9 +363,9 @@ button a{
     }
 
     
-} */
+}
 
-/* @media (max-width:440px){
+@media (max-width:440px){
     .main-container .image{
         width: 50%;
         height: 60%;
@@ -378,7 +379,7 @@ button a{
     .main-container button{
         margin-top: 15px;
     }
-} */
+}
 
 .image{
     width: 100%;
@@ -390,7 +391,7 @@ button a{
 /* Add this class for the image movement */
 .moving-image-one {
     position: absolute;
-    width: 100px;
+    width: 80px;
     height: auto;
     top: 50%;
     left: 0; /* Start from the left */
@@ -401,7 +402,7 @@ button a{
 /* Cloud 2: Moves from right to left */
 .moving-image-two {
     position: absolute;
-    width: 100px;
+    width: 80px;
     height: auto;
     top: 50%;
     right: 0; /* Start from the right */
@@ -453,8 +454,8 @@ button a{
 /* Projects */
 .project-section {
     position: relative !important;
-    padding-top: 100px !important;
-    padding-bottom: 30px !important;
+    padding-top: 80px !important;
+    padding-bottom: 0px !important;
     }
     .project-section .discription{
     text-align: center;
@@ -470,7 +471,7 @@ button a{
     padding-bottom: 50px !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
-    height: 40rem !important;    }
+    height: 35rem !important;    }
     
     .project-card-view {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
@@ -478,13 +479,13 @@ button a{
     opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
-    width: 400px; /* Set a fixed width for the card */
+    width: 300px; /* Set a fixed width for the card */
     height: 400px; /* Set a fixed height for the card */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
     border-radius: 10px; /* Rounded corners for the card */
     overflow: hidden; /* Ensure content doesn't overflow */
@@ -577,7 +578,7 @@ button a{
       background-color: transparent ;
         border-radius: 1rem;
         padding: 2rem;
-        width: 90%;
+        width: 80%;
         margin: auto;
         margin-top: 2rem;
       }
@@ -585,7 +586,7 @@ button a{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         flex-wrap: wrap;
-        gap: 1.8rem;
+        gap: 1rem;
       }
       .skills .container .bar {
         margin-bottom: 15px;
@@ -608,10 +609,10 @@ button a{
         margin-top: 1rem;
       }
       .skills .container .bar .info i {
-        font-size: 3.5rem;
+        font-size: 2rem;
       }
       .skills .container .bar .info span {
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 500;
         font-family: "Poppins";
         margin-left: 0.5rem;
@@ -619,8 +620,72 @@ button a{
 
 
       #skills{
+        padding-top: 5px;
         background-image: url("Untitled\ design\ \(9\).png");
     }
+
+    /* Contact Section Styles */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #1b1b2f;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
     
 
 
